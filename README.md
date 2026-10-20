@@ -1,10 +1,10 @@
-# Nhận diện và vẽ khung trên màn hình
+# Nhận diện và vẽ Box trên màn hình
 
 Chương trình dùng model Ultralytics `best.pt` để nhận diện nội dung trên màn
 hình chính và vẽ khung cùng tên lớp/độ tin cậy bằng một lớp phủ trong suốt.
 `best.onnx` là một định dạng model khác; chương trình hiện dùng `best.pt`.
 
-## Cài đặt trên máy NVIDIA
+## Cài đặt trên máy NVIDIA/AMD
 
 1. Cài Python 3.10 trở lên và driver NVIDIA mới; kết nối sạc laptop để GPU
    hoạt động ổn định.
@@ -48,6 +48,29 @@ Nếu biểu tượng khay hệ thống không hiện, dùng `Ctrl+C` trong cử
 dừng chương trình.
 
 Để ưu tiên hiệu năng khi chơi game, cắm sạc và chọn chế độ Performance trong
-OMEN Gaming Hub nếu máy có tùy chọn đó. Windows có thể tiếp tục dùng đồ họa AMD
+OMEN Gaming Hub nếu máy có tùy chọn đó (Máy Dell HP). Windows có thể tiếp tục dùng đồ họa AMD
 để hiển thị desktop; không cần ép ứng dụng giao diện sang NVIDIA vì PyTorch đã
 chỉ định GPU CUDA trực tiếp.
+
+## Các thông số cài đặt màn hình cho Valorant để chạy mượt mà nhất
+
+- Native Resolution: 1920x1080p
+- Outline Color: Purple
+- Material Quality: Low
+- Texture Quality: Medium
+- Detail Quality: Low
+- Anti-Aliasing: MSAA 2x
+- Anisotropic Filtering: 2x
+- Improve Clarity: On
+- Experimental Sharpening: On
+- Bloom: Off
+- Distortion: Off
+- Cast Shadows: Off
+
+<div align="center">
+
+<p>Developed with ❤️ by <a href="https://github.com/XucXichPhePha"><b>XucXichPhePha</b></a></p>
+
+[![GitHub profile](https://img.shields.io/badge/GitHub-XucXichPhePha-181717?style=flat-for-the-badge&logo=github)](https://github.com/XucXichPhePha)
+
+</div>
