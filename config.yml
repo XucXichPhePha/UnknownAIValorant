@@ -1,0 +1,7 @@
+anti_recording: false
+model_path: ./best.onnx
+max_view_fps: 65
+max_render_fps: 65
+show_debug_info: false
+capture_view: compact
+motion_assistance: true
